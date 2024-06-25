@@ -105,27 +105,3 @@ void CustomNodeEditor::onValueFloatEditChanged(float value)
         return new CustomNode(parent);
 ```
 
-### Недоработки (TODO)
-<ul>
-    <li>
-        Разнести все по пространствам имен (namespace);
-    </li>
-    <li>
-        Написать 2D Viewport (пока что только 3D подключен);
-    </li>
-    <li>
-        Перейти от NodeId int -> enum class;
-    </li>
-    <li>
-        Поправить фабрику создания NodeEditors;
-    </li>
-    <li>
-        Нет интерполяции кривых (и они не уведомляют приложении об изименении их параметров);
-    </li>
-    <li>
-        Нет Window->About (добавить о том, как пользоваться приложением приложением);
-    </li>
-    <li>
-        Добавить 2D движок партиклов.
-    </li>
-</ul>
