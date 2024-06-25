@@ -1,0 +1,9 @@
+!VIEW_PRI {
+
+CONFIG += VIEW_PRI
+
+INCLUDEPATH += $$PWD
+
+HEADERS += \
+    $$PWD/view.h
+}

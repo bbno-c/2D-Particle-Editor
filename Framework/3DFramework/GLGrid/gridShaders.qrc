@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>gridFragmentShader.fsh</file>
+        <file>gridVertexShader.vsh</file>
+    </qresource>
+</RCC>

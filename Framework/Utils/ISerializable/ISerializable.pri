@@ -1,0 +1,9 @@
+!ISERIALIZABLE_PRI {
+
+CONFIG += ISERIALIZABLE_PRI
+
+INCLUDEPATH += $$PWD
+
+HEADERS += \
+    $$PWD/iserializable.h
+}
